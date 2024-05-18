@@ -11,9 +11,11 @@ public class MemberRepository {
 		return this.resultArray;
 	}
 	public boolean postMember(Map<String,Object>param){
+		/*
 		if(!userPostValidation(param)){
 			throw new IllegalArgumentException();
 		}
+		*/
 		resultArray.add(param);
 		return true;
 	}
